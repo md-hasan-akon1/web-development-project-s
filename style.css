@@ -1,0 +1,106 @@
+*{
+    
+}
+body{
+    background-image: url("image/dark-street-background-reflection-blue-red-neon-asphalt_129911-31.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:20px 8%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-header{
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-logo{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(210, 231, 77);
+    border-radius: 50%;
+}
+#nav-title{
+    color:  rgb(210, 231, 77);
+    font-style: italic;
+}
+.menu ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.menu ul li{
+list-style: none;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(210, 231, 77);;
+
+}
+.menu ul li::after{
+	content: '';
+	width: 0;
+	height: 3px;
+	background: brown;
+	margin: auto;
+	position: absolute;
+	display: block;
+	transition: .5s;
+}
+.menu ul li:hover::after{
+	width:50px;
+}
+.search-btn{
+    background-color: rgb(65, 52, 153);
+    padding:8px 20px;
+    border-radius: 8px;
+}
+#input-filed{
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+.banner{
+display: flex;
+justify-content: space-between;
+margin-top: 100px;
+}
+.banner img{
+    height: 400px;
+    width: 400px;
+
+}
+#img-2{
+    border-radius: 10px;
+  
+   
+}
+.banner-title{
+    color: chartreuse;
+    text-align: center;
+}
+.right-side{
+    display: flex;
+    gap: 20px;
+}
+#banner-title-1{
+    font-size: 40px;
+    font-style: italic;
+}
+.right-btn{
+    margin: 0 auto;
+    font-size: 30px;
+    color: azure;
+    padding: 12px 20px;
+    background: linear-gradient(60deg,#963d3d,#808b3a);
+    border-radius: 10px;
+}
+.right-side-1{
+    text-align: center;
+}
+.right-btn:hover{
+    background: linear-gradient(60deg,#0000e0,#963d3d);
+}
